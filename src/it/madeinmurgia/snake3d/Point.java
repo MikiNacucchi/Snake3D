@@ -15,10 +15,10 @@ public class Point {
 	}
 	
 	public void incAxis(String axis){
-		axes.get(axis).setValue(axes.get(axis).getValue() +1);
+		axes.get(axis).setValue(axes.get(axis).getValue() +2);
 	}
 	public void decAxis(String axis){
-		axes.get(axis).setValue(axes.get(axis).getValue() -1);
+		axes.get(axis).setValue(axes.get(axis).getValue() -2);
 	}
 	
 	
